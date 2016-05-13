@@ -1,0 +1,150 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  color: white;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #25245F;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+table, th, td {
+    border: 1px solid white;
+    padding: 2px 15px 2px 5px;
+}
+
+#sfsu code {
+    background-color: #25245F;
+    color: #CB9A2C;
+}
+
+#cs code {
+    background-color: black;
+    color: green;
+}
+
+.navbar-default {
+    background-color: #25245F;
+}
+
+.home_img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+li a, .dropbtn {
+    background-color: #25245F;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#white {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-top:20px;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #CB9A2C;
+}
+
+li.dropdown {
+    display: inline-block;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #25245F;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {color: #CB9A2C;}
+
+.dropdown-content show {
+    color: #CB9A2C;
+}
+
+
+.show {display:block;}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #CB9A2C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+input[type=submit]:hover {
+    background-color: #bc9029;
+}
